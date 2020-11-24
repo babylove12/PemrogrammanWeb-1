@@ -1,0 +1,50 @@
+body{
+    background-image: url(image.jpg);
+    font-size: 17px;
+}
+h1{
+    color: white;
+    font-family: courier;
+    font-size: 20pt;
+    padding-top: 1em;
+}
+
+
+body form{
+    
+    border: black 1px;
+    padding: 1em;
+    margin: 2em auto;
+    width: 21em;
+    background-image: url(ima.jpg);
+    border-radius: 10px;
+}
+
+body form .firs{
+
+    float: right;
+}
+
+body form .simpan{
+
+    font-size: 13pt;
+    border: 1px solid #cecece;
+    border-radius: 3em;
+    padding: 3px 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    color: white;
+    background-color: #A0D73D;
+    padding-left: 8.5em;
+    padding-right: 8.1em;
+}
+
+.input{
+    border: none;
+    border-radius: 10px;
+}
+
+.font{
+    font-family: courier;
+    font-size: 10pt;
+    font-weight: bold;
+}

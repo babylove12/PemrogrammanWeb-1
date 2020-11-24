@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN PAGE</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<p class="pLogin">LOGIN</p>
+	<form class="login-form" name="form">
+		<div class="pUserPass">
+			<table>
+				<tr>
+					<td width="95px">
+						
+						<p class="p1">Username</p>
+						
+					</td>
+					<td>
+						: <input type="text" name="username">
+					</td>
+			</tr>
+			</table>
+			<br>
+			<table>
+			<tr>
+					<td width="95px">
+				
+						<p class="p1">Password</p>
+						
+					</td>
+					<td>
+						: <input type="password" name="password">
+					</td>
+				</tr>
+			</table>
+		</div>
+		<p class="pSimpan"><input type="checkbox" name="simpan">simpan kata sandi</p>
+
+		<p class="logres">
+		<input class="box2" type="button" value="LOGIN" onclick="Login()">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" class="box" onclick="reset()" value="RESET">
+		</p>
+		
+
+		<div class="lupa">
+			<p class="p2">Lupa Password ? <a href="">Reset Disini!</a></p>
+			<p class="p2">Belum Punya Akun ? <a href="pendaftaran.html">Daftar Disini!</a></p>
+		</div>
+	</form>
+
+</body>
+</html>

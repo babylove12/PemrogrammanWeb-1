@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: montserrat;
+	box-sizing: border-box;
+
+}
+.pLogin {
+	padding-top: 2em;
+	text-align: center;
+	font-family: courier;
+	font-size: 20pt;
+	font-weight: bold;
+	color: white;
+
+
+}
+
+body {
+	min-height: 100vh;
+	background-image: url(image.jpg);}
+
+body .login-form {
+	width: 360px;
+	background-image: url(ima.jpg);
+	height: 360px;
+	padding: 40px 40px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.pUserPass {
+	padding-top: 1em;
+	font-family: Times;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.p1 {
+	font-family: courier;
+	font-weight: bold;
+}
+.p2 {
+	font-family: courier;
+	font-weight: bold;
+	font-size: 11pt;
+}
+.p3{
+	font-size: 9pt;
+}
+.pSimpan {
+	padding-top: 2em;
+	font-size: 11pt;
+	font-family: courier;
+	font-weight: bold;
+}
+
+.logres {
+	padding-top: 2em;
+	padding-left: 3em;
+
+	
+}
+ .lupa {
+ 	text-align: center;
+
+ }
+
+
+body .login-form .lupa {
+	padding-top: 2em;
+	position: center;
+}
+a {
+	font-size: 10pt;
+}
+.box{
+	font-size: 13pt;
+	border: 1px solid #cecece;
+	border-radius: 3em;
+	padding: 3px 10px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+	color: white;
+	background-color: #FE910F;
+
+}
+
+.box2{
+	font-size: 13pt;
+	border: 1px solid #cecece;
+	border-radius: 3em;
+	padding: 3px 10px;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+	color: white;
+	background-color: #A0D73D;
+}
+
+.paddres {
+	padding-left: 0.5em;
+}
+
+
+
+input{
+
+    border: none;
+    border-radius: 3px;
+}

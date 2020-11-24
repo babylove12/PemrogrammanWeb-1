@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="pemesanan.css">
+	<script type="text/javascript" src="pemesanan.js"></script>
+	<title>HOME</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+			<li><a class="border" href="pemesanan.html">PEMESANAN</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li class="logout"><input class="box" type="button" value="LOGOUT" onclick="logout()"></li>
+		</ul>
+	</nav>
+	<br>
+	<div>
+		 <form name="fform" class="tabel">
+        <table border="2" align="center" width="70%" class="kotak">
+            <font color="white">
+            <tr>
+                <td width="100%" colspan="2"><h2 align="center">Pemesanan Komputer</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    Nama <span style="margin-left: 70px">: </span><input type="text" name="inama"><br>
+                    Nama Barang <span style="margin-left: 20px">: </span><select name="ibarang">
+                        <option value="0">----</option>
+                        <option value="cpu">CPU</option>
+                        <option value="monitor">Monitor</option>
+                        <option value="keyboard">Keyboard</option>
+                        <option value="rom">ROM</option>
+                        <option value="ssd">SSD</option>
+                        <option value="hardisk">Hardisk</option>
+                        <option value="mouse">Mouse</option>
+                        <option value="lengkap">Komputer Satu Paket</option>
+                    </select><br>
+                    Jumlah Barang <span style="margin-left: 12px">: </span><input type="text" name="ijumlahpaket"><br>
+                    Member <span style="margin-left: 55px">: </span><select name="imember" size="1">
+                        <option value="normal">Tidak</option>
+                        <option value="VIP">Ya</option>
+                    </select><br>
+                </td>
+                <td>
+                    Harga Barang <span style="margin-left: 10px">: </span><input type="text" name="otiket" size="10"><br>
+                    Sub Total <span style="margin-left: 38px">: </span><input type="text" name="osub" size="10"><br>
+                    Diskon <span style="margin-left: 53px">: </span><input type="text" name="odiskon" size="10"><br>
+                    Total Bayar <span style="margin-left: 25px">: </span><input type="text" name="ototal" size="10"><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" name="Hitung" value="Hitung"
+                    onclick="hitungtotal()">
+                    <input type="reset" name="Reset">
+                </td>
+            </tr>
+        </table>
+        </font>
+    </form>
+	</div>
+	<br>
+
+	<footer>
+		Copy right @Agung Husurur
+	</footer>
+</body>
+</html>
